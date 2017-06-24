@@ -1,5 +1,5 @@
-author: mongoose-os
-description: A default Mongoose OS firmware
+author: Steve Kasuya <steve.kasuya@gmail.com>
+description: A default Mongoose OS firmware with the modified init.js
 # arch: PLATFORM
 version: 1.0
 skeleton_version: 2017-05-18

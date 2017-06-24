@@ -1,27 +1,32 @@
-load('api_config.js');
+// Load Mongoose OS API
 load('api_gpio.js');
 load('api_mqtt.js');
 load('api_sys.js');
-load('api_timer.js');
 
-// Helper C function get_led_gpio_pin() in src/main.c returns built-in LED GPIO
-let led = ffi('int get_led_gpio_pin()')();
+// GPIO pin which is connected to a relay driver circuit
+let relayPin = 13;
+GPIO.set_mode(relayPin, GPIO.MODE_OUTPUT);
+GPIO.write(relayPin, 0);
 
-let getInfo = function() {
-  return JSON.stringify({total_ram: Sys.total_ram(), free_ram: Sys.free_ram()});
-};
+// MQTT topic
+let topic = 'bell';
 
-// Blink built-in LED every second
-GPIO.set_mode(led, GPIO.MODE_OUTPUT);
-Timer.set(1000 /* 1 sec */, true /* repeat */, function() {
-  let value = GPIO.toggle(led);
-  print(value ? 'Tick' : 'Tock', 'uptime:', Sys.uptime(), getInfo());
-}, null);
+// Bell #
+let bellNumber = 1;
 
-// Publish to MQTT topic on a button press. Button is wired to GPIO pin 0
-GPIO.set_button_handler(0, GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 200, function() {
-  let topic = '/devices/' + Cfg.get('device.id') + '/events';
-  let message = getInfo();
-  let ok = MQTT.pub(topic, message, 1);
-  print('Published:', ok ? 'yes' : 'no', 'topic:', topic, 'message:', message);
+// Subscribe to the topic to ring the bell
+MQTT.sub(topic, function(conn, topic, msg) {
+  print('Topic: ', topic, 'message:', msg);
+  let obj = JSON.parse(msg);
+  
+  if(obj.number === bellNumber || obj.number === 0){ //use bell #0 to ring all the bells
+    print('ok');
+    GPIO.write(relayPin, 1);
+    Sys.usleep(20000); //wait for 20msec
+    GPIO.write(relayPin, 0);
+    Sys.usleep(200000); //wait for 200msec
+    GPIO.write(relayPin, 1);
+    Sys.usleep(20000); //wait for 20msec
+    GPIO.write(relayPin, 0);
+  }
 }, null);

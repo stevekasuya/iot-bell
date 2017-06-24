@@ -1,6 +1,13 @@
-# Default Mongoose OS firmware
+# Default Mongoose OS firmware with the modified init.js (IoT Bell)
 
-This is the default Mongoose OS app. It gets installed by default at
-[Mongoose OS installation step](https://mongoose-os.com/docs/). It has
-a lot of functionality enabled - cloud integrations, JavaScript engine, etc.
-Its main purpose is to demonstrate the capabilities of Mongoose OS.
+
+## Overview
+
+This is the default Mongoose OS app + modified init.js.
+It's for ringing an IoT bell over MQTT. 
+
+For the bell, you can make one with a cheap reception bell and a 
+5V solenoid. Make sure you use a relay and a relay drive circuit
+and don't connect the solenoid directly to the GPIO pin.
+
+Change relayPin, topic, or bellNumber if necessary.
