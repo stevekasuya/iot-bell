@@ -1,0 +1,736 @@
+make: Entering directory '/app'
+GENCONFIG
+make[1]: Entering directory '/app/build/objs/cs_mbedtls'
+/opt/cs_mbedtls/component.mk:17: warning: undefined variable 'MGOS_ENABLE_ATCA'
+make[1]: Entering directory '/app/build/objs/spiffs'
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/src'
+make[1]: Entering directory '/app/build/objs/soc'
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+make[1]: Entering directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+make[1]: Entering directory '/app/build/objs/freertos'
+make[1]: Entering directory '/app/build/objs/newlib'
+make[1]: Leaving directory '/app/build/objs/cs_mbedtls'
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+make[1]: Leaving directory '/app/build/objs/spiffs'
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/soc'
+make[1]: Leaving directory '/app/build/objs/freertos'
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Leaving directory '/app/build/objs/src'
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/driver'
+make[1]: Leaving directory '/app/build/objs/log'
+make[1]: Leaving directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/app_update'
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+make[1]: Leaving directory '/app/build/objs/newlib'
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/lwip'
+make[1]: Leaving directory '/app/build/objs/ethernet'
+make[1]: Leaving directory '/app/build/objs/esp32'
+make[1]: Leaving directory '/app/build/objs/driver'
+make[1]: Leaving directory '/app/build/objs/app_update'
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+make[1]: Entering directory '/app/build/objs/bt'
+make[1]: Leaving directory '/app/build/objs/bt'
+Building partitions from /mongoose-os/fw/platforms/esp32/src/partitions_mgos.csv...
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/src'
+make[1]: Entering directory '/app/build/objs/app_update'
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+CC esp_ota_ops.o
+make[1]: Entering directory '/app/build/objs/driver'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Entering directory '/app/build/objs/expat'
+CC spi_master.o
+make[1]: Entering directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+CC log.o
+CC sigmadelta.o
+CC uart.o
+make[1]: Entering directory '/app/build/objs/newlib'
+make[1]: Entering directory '/app/build/objs/freertos'
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Entering directory '/app/build/objs/bt'
+CC src/esp_ota_select.o
+CC emac_dev.o
+CC ringbuf.o
+CC heap_regions_debug.o
+CC library/xmltok_ns.o
+CC time.o
+CC micro-ecc/uECC.o
+CC panic.o
+CC library/xmltok.o
+CC xtensa_intr.o
+CC src/bootloader_flash.o
+CC emac_main.o
+CC i2c.o
+CC reent_init.o
+AR libapp_update.a
+AR liblog.a
+make[1]: Leaving directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+make[1]: Leaving directory '/app/build/objs/app_update'
+CC syscalls.o
+make[1]: Entering directory '/app/build/objs/soc'
+CXX src/nvs_types.o
+CC esp32/rtc_pm.o
+CC api/pppapi.o
+CC src/efuse.o
+CC queue.o
+CC croutine.o
+CC esp32/cpu_util.o
+CC periph_ctrl.o
+CC src/secure_boot.o
+CC core_dump.o
+CC syscall_table.o
+CC api/netbuf.o
+CC list.o
+CC esp32/brownout.o
+CC locks.o
+CC esp32/rtc_time.o
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+CC ledc.o
+CC xtensa_init.o
+CC src/secure_boot_signatures.o
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+CC clk.o
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+CC eth_phy/phy_common.o
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+CC api/api_lib.o
+CC api/netifapi.o
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+CC port.o
+CC eth_phy/phy_lan8720.o
+CC api/tcpip.o
+CC spi_common.o
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+AR libmicro-ecc.a
+CC task_wdt.o
+CC src/flash_partitions.o
+AR libnewlib.a
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/newlib'
+CXX src/nvs_item_hash_list.o
+make[1]: Entering directory '/app/build/objs/spi_flash'
+CC flash_mmap.o
+CC esp32/rtc_init.o
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+CC bt.o
+CC eth_phy/phy_tlk110.o
+CC heap_regions.o
+CC event_groups.o
+CC tasks.o
+CC src/esp_image_format.o
+CC system_api.o
+CC api/netdb.o
+CC esp32/rtc_sleep.o
+CC timers.o
+AR libethernet.a
+CC bluedroid/bta/dm/bta_dm_sco.o
+CC partition.o
+CC bluedroid/bta/dm/bta_dm_api.o
+CXX src/nvs_pagemanager.o
+make[1]: Leaving directory '/app/build/objs/ethernet'
+CC library/xmlparse.o
+CC gpio.o
+CC pcnt.o
+CC src/flash_encrypt.o
+CC lib_printf.o
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+CC bluedroid/bta/dm/bta_dm_ci.o
+CC src/esp_ota_select.o
+CC src/bootloader_flash.o
+CC esp32/rtc_clk.o
+CC spi_flash_rom_patch.o
+CC src/bootloader_random.o
+CC src/efuse.o
+CC api/err.o
+CC restore.o
+CC src/secure_boot.o
+CC bluedroid/bta/dm/bta_dm_act.o
+CC src/secure_boot_signatures.o
+CC api/sockets.o
+CC api/api_msg.o
+CC int_wdt.o
+CC src/flash_partitions.o
+CC rmt.o
+CC mcpwm.o
+AR libbootloader_support.a
+CC src/esp_image_format.o
+CC phy_init.o
+CC FreeRTOS-openocd.o
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+CC tcpip_adapter_lwip.o
+AR libsoc.a
+make[1]: Leaving directory '/app/build/objs/soc'
+CC bluedroid/bta/dm/bta_dm_pm.o
+CXX src/nvs_api.o
+CC bluedroid/bta/dm/bta_dm_main.o
+CC xtensa_overlay_os_hook.o
+CC src/flash_encrypt.o
+CC cache_utils.o
+AS xtensa_context.o
+CC deep_sleep.o
+AS portasm.o
+CC cpu_start.o
+CC bluedroid/bta/dm/bta_dm_cfg.o
+AS xtensa_vectors.o
+CC flash_ops.o
+CC src/bootloader_random.o
+AS xtensa_intr_asm.o
+CXX src/nvs_storage.o
+AR libbootloader_support.a
+AR libfreertos.a
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+CC heap_alloc_caps.o
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+CC log.o
+make[1]: Leaving directory '/app/build/objs/freertos'
+CC freertos_hooks.o
+CC apps/dhcpserver.o
+CC gdbstub.o
+AR libspi_flash.a
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/vfs'
+CC vfs_uart.o
+CC vfs.o
+CC sdmmc_transaction.o
+AR liblog.a
+AR libtcpip_adapter.a
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+CC spi_flash_rom_patch.o
+CC spi_slave.o
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+CC i2s.o
+CC sdmmc_host.o
+CC crosscore_int.o
+CC cache_err_int.o
+CXX src/nvs_page.o
+CC apps/sntp/sntp.o
+CC ipc.o
+CC intr_alloc.o
+CC timer.o
+AR libvfs.a
+make[1]: Leaving directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+AR libspi_flash.a
+CC app_trace.o
+CC src/crypto/aes-internal-enc.o
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+CC micro-ecc/uECC.o
+CC rtc_module.o
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+CC eri.o
+CC trax.o
+CC apps/ping/ping.o
+CC event_loop.o
+AR libxtensa-debug-module.a
+CC apps/ping/esp_ping.o
+CC src/crypto/sha256-internal.o
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+CC src/crypto/md5-internal.o
+CC src/crypto/aes-internal.o
+CC hw_random.o
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+CC bluedroid/bta/gatt/bta_gatts_main.o
+CC lib/atca_command.o
+CC lib/atca_iface.o
+CC dport_access.o
+CC core/stats.o
+CC lib/atca_cfgs.o
+CC src/crypto/sha1.o
+CC src/crypto/aes-internal-dec.o
+CC core/mem.o
+CC event_default_handlers.o
+CC lib/atca_device.o
+CC hwcrypto/sha.o
+CC lib/basic/atca_helpers.o
+CC bluedroid/bta/gatt/bta_gattc_api.o
+CC bluedroid/bta/gatt/bta_gattc_cache.o
+CC lib/basic/atca_basic.o
+CC core/inet_chksum.o
+CC lib/host/atca_host.o
+CC src/crypto/aes-unwrap.o
+AR libdriver.a
+CC hwcrypto/aes.o
+make[1]: Leaving directory '/app/build/objs/driver'
+make[1]: Entering directory '/app/build/objs/spiffs'
+CC spiffs_cache.o
+CC spiffs_gc.o
+CC src/crypto/crypto_internal-rsa.o
+CC src/crypto/des-internal.o
+CC src/crypto/dh_groups.o
+CC spiffs_nucleus.o
+CC src/crypto/ms_funcs.o
+CC core/init.o
+CC src/crypto/aes-wrap.o
+AR libesp32.a
+CC src/crypto/sha1-internal.o
+CC src/crypto/md4-internal.o
+CC core/memp.o
+AR libnvs_flash.a
+AR libmicro-ecc.a
+make[1]: Leaving directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/src'
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_config.c
+CC bluedroid/bta/gatt/bta_gattc_main.o
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+CC src/crypto/dh_group5.o
+  MKDIR /app/build/objs/fw_temp
+CC library/xmlrole.o
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+CC library/xmltok_impl.o
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_ro_vars.c
+CC port/minicheck.o
+CC esp32/rtc_pm.o
+CC core/dns.o
+CC core/tcp_in.o
+CC core/ip.o
+CC core/raw.o
+CC spiffs_check.o
+CC bluedroid/bta/gatt/bta_gatts_api.o
+CC esp32/cpu_util.o
+CC esp32/brownout.o
+CC esp32/rtc_time.o
+CC src/crypto/crypto_internal.o
+CC esp32/rtc_init.o
+AS esp32_nsleep100.o
+CC esp32/rtc_sleep.o
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_config_schema.json
+CC core/tcp.o
+CC esp32/rtc_clk.o
+CC src/crypto/sha256.o
+CC src/crypto/md5.o
+CC port/expat_element.o
+CC port/chardata.o
+CC core/def.o
+CC src/crypto/aes-cbc.o
+CC src/crypto/sha1-pbkdf2.o
+CC src/crypto/rc4.o
+CC bluedroid/bta/gatt/bta_gattc_utils.o
+CC bluedroid/bta/gatt/bta_gattc_ci.o
+CC bluedroid/bta/gatt/bta_gattc_act.o
+AR libexpat.a
+AR libcryptoauthlib.a
+CC core/netif.o
+AR libsoc.a
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+make[1]: Leaving directory '/app/build/objs/expat'
+CC core/sys.o
+  MKDIR /app/build/fw
+CC core/timers.o
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+CC bluedroid/bta/gatt/bta_gatts_act.o
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+CC bootloader_start.o
+CC flash_qio_mode.o
+CC src/crypto/crypto_internal-modexp.o
+CC src/crypto/crypto_internal-cipher.o
+CC bluedroid/bta/gatt/bta_gatts_utils.o
+CC core/pbuf.o
+CC mgos_debug.o
+CC mgos_bitbang.o
+CC mgos_mdns.o
+CC port/os_xtensa.o
+CC src/crypto/bignum.o
+CC mgos_sntp.o
+CC spiffs_hydrogen.o
+CC spiffs_vfs.o
+CC mgos_updater_common.o
+CC core/udp.o
+CC core/tcp_out.o
+CC bluedroid/bta/hh/bta_hh_api.o
+CC mgos_wifi.o
+AR libmain.a
+CC core/ipv4/ip_frag.o
+CC core/ipv4/dhcp.o
+CC bluedroid/bta/hh/bta_hh_utils.o
+CC core/ipv4/ip4_addr.o
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+LD bootloader.elf
+CC bluedroid/bta/hh/bta_hh_le.o
+CC mgos_config.o
+CC bluedroid/bta/hh/bta_hh_act.o
+CC mgos_gpio.o
+CC core/ipv4/igmp.o
+CC bluedroid/bta/hh/bta_hh_main.o
+CC bluedroid/bta/hh/bta_hh_cfg.o
+CC mgos_hooks.o
+CC bluedroid/bta/sdp/bta_sdp.o
+CC mgos_init.o
+CC bluedroid/bta/sdp/bta_sdp_act.o
+esptool.py v2.0
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/src'
+CC core/ipv4/ip4.o
+CC mgos_mongoose.o
+CC bluedroid/bta/sdp/bta_sdp_cfg.o
+CC bluedroid/bta/sdp/bta_sdp_api.o
+CC mgos_sys_config.o
+CC core/ipv4/autoip.o
+AR libspiffs.a
+make[1]: Leaving directory '/app/build/objs/spiffs'
+CC bluedroid/bta/av/bta_av_api.o
+CC /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_config.o
+CC bluedroid/bta/av/bta_av_ssm.o
+CC sys_ro_vars.o
+CC core/ipv4/icmp.o
+CC bluedroid/bta/av/bta_av_cfg.o
+CC core/ipv6/ip6_frag.o
+CC bluedroid/bta/av/bta_av_ci.o
+CC mgos_timers_mongoose.o
+CC core/ipv6/dhcp6.o
+CC bluedroid/bta/av/bta_av_act.o
+CC bluedroid/bta/av/bta_av_main.o
+CC core/ipv6/inet6.o
+CC bluedroid/bta/av/bta_av_sbc.o
+CC mgos_uart.o
+CC bluedroid/bta/av/bta_av_aact.o
+CC mgos_utils.o
+CC mgos_dlsym.o
+CC mgos_vfs.o
+CC mgos_vfs_dev.o
+CC bluedroid/bta/ar/bta_ar.o
+CC bluedroid/bta/sys/bta_sys_main.o
+CC mgos_vfs_fs_spiffs.o
+CC core/ipv6/ip6_addr.o
+CC bluedroid/bta/sys/utl.o
+CC core/ipv6/ip6.o
+CC bluedroid/bta/sys/bta_sys_conn.o
+CC esp_mmap.o
+AR libwpa_supplicant.a
+CC esp32_adc.o
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+CC bluedroid/btcore/bdaddr.o
+CC esp32_crypto.o
+CC core/ipv6/mld6.o
+CC core/ipv6/nd6.o
+CC bluedroid/btif/bta_gattc_co.o
+CC esp32_debug.o
+CC bluedroid/btif/bta_dm_co.o
+CC esp32_exc.o
+CC core/ipv6/ethip6.o
+CC esp32_fs.o
+CC esp32_fs_crypt.o
+CC core/ipv6/icmp6.o
+CC esp32_vfs_dev_partition.o
+CC bluedroid/btif/bta_gatts_co.o
+CC bluedroid/device/interop.o
+CC esp32_gpio.o
+CC bluedroid/device/controller.o
+CC esp32_hal.o
+CC netif/slipif.o
+CC esp32_main.o
+CC netif/etharp.o
+CC bluedroid/gki/gki_ulinux.o
+CC esp32_mdns.o
+CC esp32_pwm.o
+CC netif/ethernet.o
+CC bluedroid/gki/gki_buffer.o
+CC bluedroid/hci/buffer_allocator.o
+CC netif/lowpan6.o
+CC netif/ethernetif.o
+CC esp32_uart.o
+CC port/freertos/sys_arch.o
+CC esp32_wifi.o
+CC esp32_updater.o
+CC cs_crc32.o
+CC port/netif/wlanif.o
+CC bluedroid/hci/hci_hal_h4.o
+CC cs_dbg.o
+CC port/netif/ethernetif.o
+CC cs_file.o
+CC port/debug/lwip_debug.o
+CC bluedroid/hci/hci_packet_parser.o
+CC cs_rbuf.o
+CC json_utils.o
+CC bluedroid/hci/packet_fragmenter.o
+CC frozen.o
+CC bluedroid/hci/hci_layer.o
+CC mongoose.o
+CC bluedroid/hci/hci_packet_factory.o
+CC bluedroid/main/bte_main.o
+CC mgos_i2c.o
+CC mgos_i2c_gpio.o
+CC mgos_atca.o
+CC mgos_mqtt.o
+CC mgos_aws_shadow.o
+CC bluedroid/main/bte_init.o
+CC mgos_http_server.o
+CC bluedroid/osi/future.o
+CC mgos_dns_sd.o
+CC bluedroid/osi/hash_map.o
+CC mgos_gcp.o
+CC mos_mjs.o
+CC bluedroid/osi/fixed_queue.o
+CC mjs.o
+CC mgos_ota_http_client.o
+AR liblwip.a
+CC bluedroid/osi/config.o
+CC mgos_ota_http_server.o
+CC mg_rpc_channel_http.o
+CC mg_rpc.o
+make[1]: Leaving directory '/app/build/objs/lwip'
+CC bluedroid/osi/list.o
+CC bluedroid/osi/hash_functions.o
+CC bluedroid/osi/alarm.o
+CC mg_rpc_channel_tcp_common.o
+CC mgos_rpc.o
+CC mg_rpc_channel_ws.o
+CC mg_rpc_channel_loopback.o
+CC mgos_rpc_channel_mqtt.o
+CC mgos_atca_service.o
+CC bluedroid/osi/buffer.o
+CC mgos_service_config.o
+CC bluedroid/osi/osi_arch.o
+CC mgos_service_filesystem.o
+CC mgos_gpio_service.o
+CC bluedroid/osi/allocator.o
+CC bluedroid/external/sbc/decoder/srce/bitstream-decode.o
+CC mgos_i2c_service.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-dct8.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-sbc.o
+CC mgos_rpc_service_ota.o
+CC bluedroid/external/sbc/decoder/srce/decoder-oina.o
+CC bluedroid/external/sbc/decoder/srce/bitalloc.o
+CC mgos_rpc_channel_uart.o
+CC mgos_spi.o
+CC esp32_spi_master.o
+CC bluedroid/external/sbc/decoder/srce/dequant.o
+CC bluedroid/external/sbc/decoder/srce/framing.o
+CC mgos_vfs_dev_spi_flash.o
+CC bluedroid/external/sbc/decoder/srce/alloc.o
+CC bluedroid/external/sbc/decoder/srce/decoder-sbc.o
+CC bluedroid/external/sbc/decoder/srce/decoder-private.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-8-generated.o
+CC bluedroid/external/sbc/decoder/srce/framing-sbc.o
+CC bluedroid/external/sbc/decoder/srce/oi_codec_version.o
+CC bluedroid/external/sbc/decoder/srce/bitalloc-sbc.o
+CC bluedroid/btc/core/btc_task.o
+CC main.o
+CC bluedroid/btc/core/btc_main.o
+CC bluedroid/btc/core/btc_config.o
+CC deps_init.o
+CC bluedroid/btc/core/btc_util.o
+CC bluedroid/btc/core/btc_storage.o
+CC bluedroid/btc/core/btc_ble_storage.o
+CC bluedroid/btc/core/btc_profile_queue.o
+CC bluedroid/btc/core/btc_alarm.o
+CC bluedroid/btc/core/btc_manage.o
+CC bluedroid/btc/core/btc_sec.o
+CC bluedroid/btc/core/btc_sm.o
+CC bluedroid/btc/core/btc_dev.o
+CC bluedroid/btc/core/btc_dm.o
+CC bluedroid/btc/profile/esp/blufi/blufi_prf.o
+CC bluedroid/btc/profile/esp/blufi/blufi_protocol.o
+CC bluedroid/btc/profile/std/gap/btc_gap_bt.o
+CC bluedroid/btc/profile/std/gap/btc_gap_ble.o
+CC bluedroid/btc/profile/std/gatt/btc_gatts.o
+CC bluedroid/btc/profile/std/gatt/btc_gatt_util.o
+CC bluedroid/btc/profile/std/gatt/btc_gattc.o
+CC bluedroid/btc/profile/std/a2dp/bta_av_co.o
+CC bluedroid/btc/profile/std/a2dp/btc_media_task.o
+CC bluedroid/btc/profile/std/a2dp/btc_avk.o
+CC bluedroid/btc/profile/std/avrc/btc_avrc.o
+CC bluedroid/stack/btm/btm_ble_batchscan.o
+CC bluedroid/stack/btm/btm_ble_cont_energy.o
+CC bluedroid/stack/btm/btm_sec.o
+CC bluedroid/stack/btm/btm_ble.o
+CC bluedroid/stack/btm/btm_pm.o
+CC bluedroid/stack/btm/btm_ble_adv_filter.o
+CC bluedroid/stack/btm/btm_main.o
+CC bluedroid/stack/btm/btm_inq.o
+CC bluedroid/stack/btm/btm_dev.o
+CC bluedroid/stack/btm/btm_ble_privacy.o
+CC bluedroid/stack/btm/btm_acl.o
+CC bluedroid/stack/btm/btm_ble_bgconn.o
+CC bluedroid/stack/btm/btm_ble_gap.o
+CC bluedroid/stack/btm/btm_ble_addr.o
+CC bluedroid/stack/btm/btm_ble_multi_adv.o
+CC bluedroid/stack/btm/btm_devctl.o
+CC bluedroid/stack/btm/btm_sco.o
+CC bluedroid/stack/btu/btu_hcif.o
+CC bluedroid/stack/btu/btu_task.o
+CC bluedroid/stack/btu/btu_init.o
+CC bluedroid/stack/gap/gap_ble.o
+CC bluedroid/stack/gap/gap_conn.o
+CC bluedroid/stack/gap/gap_api.o
+CC bluedroid/stack/gap/gap_utils.o
+CC bluedroid/stack/gatt/gatt_db.o
+CC bluedroid/stack/gatt/gatt_cl.o
+CC bluedroid/stack/gatt/gatt_attr.o
+CC bluedroid/stack/gatt/gatt_main.o
+CC bluedroid/stack/gatt/gatt_sr.o
+CC bluedroid/stack/gatt/att_protocol.o
+CC bluedroid/stack/gatt/gatt_auth.o
+CC bluedroid/stack/gatt/gatt_api.o
+CC bluedroid/stack/gatt/gatt_utils.o
+CC bluedroid/stack/hcic/hciblecmds.o
+CC bluedroid/stack/hcic/hcicmds.o
+CC bluedroid/stack/l2cap/l2c_main.o
+CC bluedroid/stack/l2cap/l2c_csm.o
+CC bluedroid/stack/l2cap/l2c_ucd.o
+CC bluedroid/stack/l2cap/l2cap_client.o
+CC bluedroid/stack/l2cap/l2c_utils.o
+CC bluedroid/stack/l2cap/l2c_fcr.o
+CC bluedroid/stack/l2cap/l2c_link.o
+CC bluedroid/stack/l2cap/l2c_ble.o
+CC bluedroid/stack/l2cap/l2c_api.o
+CC bluedroid/stack/sdp/sdp_utils.o
+CC bluedroid/stack/sdp/sdp_db.o
+CC bluedroid/stack/sdp/sdp_discovery.o
+CC bluedroid/stack/sdp/sdp_main.o
+CC bluedroid/stack/sdp/sdp_server.o
+CC bluedroid/stack/sdp/sdp_api.o
+CC bluedroid/stack/smp/p_256_curvepara.o
+CC bluedroid/stack/smp/smp_api.o
+CC bluedroid/stack/smp/smp_utils.o
+CC bluedroid/stack/smp/smp_act.o
+CC bluedroid/stack/smp/p_256_ecc_pp.o
+CC bluedroid/stack/smp/smp_cmac.o
+CC bluedroid/stack/smp/smp_keys.o
+CC bluedroid/stack/smp/smp_br_main.o
+CC bluedroid/stack/smp/aes.o
+CC bluedroid/stack/smp/smp_main.o
+CC bluedroid/stack/smp/p_256_multprecision.o
+CC bluedroid/stack/smp/smp_l2c.o
+CC bluedroid/stack/avct/avct_lcb.o
+CC bluedroid/stack/avct/avct_lcb_act.o
+CC bluedroid/stack/avct/avct_l2c.o
+CC bluedroid/stack/avct/avct_api.o
+CC bluedroid/stack/avct/avct_ccb.o
+CC bluedroid/stack/avrc/avrc_pars_ct.o
+CC bluedroid/stack/avrc/avrc_opt.o
+CC bluedroid/stack/avrc/avrc_bld_ct.o
+CC bluedroid/stack/avrc/avrc_pars_tg.o
+CC bluedroid/stack/avrc/avrc_bld_tg.o
+CC bluedroid/stack/avrc/avrc_api.o
+CC bluedroid/stack/avrc/avrc_utils.o
+CC bluedroid/stack/avrc/avrc_sdp.o
+CC bluedroid/stack/avdt/avdt_l2c.o
+CC bluedroid/stack/avdt/avdt_api.o
+CC bluedroid/stack/avdt/avdt_ccb.o
+CC bluedroid/stack/avdt/avdt_scb_act.o
+CC bluedroid/stack/avdt/avdt_scb.o
+CC bluedroid/stack/avdt/avdt_msg.o
+CC bluedroid/stack/avdt/avdt_ccb_act.o
+CC bluedroid/stack/avdt/avdt_ad.o
+CC bluedroid/stack/a2dp/a2d_sbc.o
+CC bluedroid/stack/a2dp/a2d_api.o
+CC bluedroid/utils/bt_utils.o
+CC bluedroid/api/esp_avrc_api.o
+CC bluedroid/api/esp_bt_main.o
+CC bluedroid/api/esp_bt_device.o
+CC bluedroid/api/esp_gap_bt_api.o
+CC bluedroid/api/esp_a2dp_api.o
+CC bluedroid/api/esp_gattc_api.o
+CC bluedroid/api/esp_blufi_api.o
+CC bluedroid/api/esp_gap_ble_api.o
+CC bluedroid/api/esp_gatts_api.o
+AR libbt.a
+make[1]: Leaving directory '/app/build/objs/bt'
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/mg_build_info.c
+CC mg_build_info.o
+  GEN /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/symbols_dump.txt
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/build_info.c
+  GEN   /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/ffi_exports.c
+CC build_info.o
+CC /app/build/objs/ffi_exports.o
+AR libsrc.a
+make[1]: Leaving directory '/app/build/objs/src'
+LD iot-bell.elf
+esptool.py v2.0
+  Generating breakdown
+  CP    /mongoose-os/fw/skeleton/fs/ca.pem -> build/fs
+  CP    /mongoose-os/fw/skeleton/fs/index.html -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_adc.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_sys.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_http.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/init.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_timer.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_bitbang.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_grove.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_net.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_log.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_config.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_neopixel.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_uart.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_gpio.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mjs/fs/api_pwm.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/modules/mjs/mjs/lib/api_file.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/modules/mjs/mjs/lib/api_dataview.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/modules/mjs/mjs/lib/api_math.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/modules/mongoose-os/fw/platforms/esp32/mjs_api/api_esp32.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/modules/mongoose-os/fw/platforms/esp32/mjs_api/api_arch_uart.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/i2c/mjs_fs/api_i2c.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/mqtt/mjs_fs/api_mqtt.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/aws/mjs_fs/api_aws.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/libs/rpc-common/mjs_fs/api_rpc.js -> build/fs
+  CP    /app/fs/init.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/conf0.json -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_config_schema.json -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/iot-bell/build_requests/build_req_367279352/build/gen/sys_ro_vars_schema.json -> build/fs
+  MKFS  build/fs (131072) -> /app/build/objs/fw_temp/fs.img
+     Adding sys_ro_vars_schema.json: 332
+     Adding sys_config_schema.json: 9372
+     Adding conf0.json: 3384
+     Adding api_rpc.js: 2239
+     Adding api_aws.js: 3422
+     Adding api_mqtt.js: 2199
+     Adding api_i2c.js: 2580
+     Adding api_arch_uart.js: 1206
+     Adding api_esp32.js: 279
+     Adding api_math.js: 549
+     Adding api_dataview.js: 3837
+     Adding api_file.js: 1954
+     Adding api_pwm.js: 752
+     Adding api_gpio.js: 2731
+     Adding api_uart.js: 5471
+     Adding api_neopixel.js: 2191
+     Adding api_config.js: 1519
+     Adding api_log.js: 1862
+     Adding api_net.js: 3370
+     Adding api_grove.js: 1316
+     Adding api_bitbang.js: 815
+     Adding api_timer.js: 1330
+     Adding init.js: 823
+     Adding api_http.js: 3832
+     Adding api_sys.js: 991
+     Adding api_adc.js: 286
+     Adding index.html: 825
+     Adding ca.pem: 7845
+     Image stats: size=131072, space: total=113201, used=78061, free=35140
+  GEN    /app/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/iot-bell-esp32-last.zip
+     Adding /app/build/objs/fw_temp/bootloader.bin
+     Adding /app/build/objs/fw_temp/fs.img
+     Adding /app/build/objs/fw_temp/iot-bell.bin
+     Adding /app/build/objs/fw_temp/partitions_mgos.bin
+  Built iot-bell/esp32 version 1.0 (20170624-014332/???)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0x1000 /app/build/objs/bootloader/bootloader.bin 0x10000 /app/build/objs/iot-bell.bin 0x8000 /app/build/objs/partitions_mgos.bin
+make: Leaving directory '/app'
